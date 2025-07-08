@@ -275,7 +275,7 @@ int my_malloc_utilization_percentage[LAST_CHALLENGE_INDEX + 1];
 void print_stats(int challenge_index, stats_t simple_stats, stats_t my_stats) {
   assert(FIRST_CHALLENGE_INDEX <= challenge_index &&
          challenge_index <= LAST_CHALLENGE_INDEX);
-  printf("===================================================\n");
+  printf("====================================================\n");
   printf("Challenge #%d    | %15s => %15s\n", challenge_index, "simple_malloc",
          "my_malloc");
   printf("%-16s+ %15s => %15s\n", "---------------", "---------------",
